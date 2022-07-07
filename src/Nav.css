@@ -1,0 +1,30 @@
+.nav{
+    position: fixed;
+    /* position to fix something and then using top to fix where? */
+    top:0;
+    width: 100%;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    /* to make tags arranged into rows flex . we can flex by making a big container then putting tags inside them which needs to be flexed: . then in the container we can justify content : spacebetween so that the l]flex have spce between them */
+}
+.nav_black{
+    background-color: #111;
+
+}
+.nav_logo{
+    position: fixed;
+    left:80px;
+    width: 80px;
+
+    object-fit: contain;
+}
+.nav_avatar{
+    position: fixed;
+    right: 10px;
+    /* margin-right: 60px; */
+    width:30px;
+    object-fit: contain;
+}
